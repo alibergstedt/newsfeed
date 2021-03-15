@@ -148,7 +148,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "3000"
+		port = "80"
 	}
 
 	apiKey := os.Getenv("NEWS_API_KEY")
